@@ -20,7 +20,6 @@ namespace Daily_Diary_Manager
                     Console.WriteLine("Invalid choice. Please choose a number between 1 and 6.");
                     continue;
                 }
-
                 try
                 {
                     switch (choose)
@@ -81,7 +80,7 @@ namespace Daily_Diary_Manager
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"An unexpected error occurred: {ex.Message}");
+                    Console.WriteLine($"An Unexpected Error Occurred: {ex.Message}");
                 }
             }
         }
